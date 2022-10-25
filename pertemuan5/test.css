@@ -1,0 +1,152 @@
+/* Style */
+body {
+    font: 16px/28px Cursive, Lucida Console;
+    background-color: saddlebrown;
+   color: rgb(55, 48, 40);
+   background-image: url(pexels-ekaterina-belinskaya-4744790.jpg);
+   height: 280px;
+   background-position: 0px -1000px;
+
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background-color: saddlebrown;
+    border-bottom: 3px;
+}
+
+.container {
+    width: 960px;
+    margin: 80px auto;
+    background-color: rgb(160, 123, 80);
+    position: relative;
+}
+
+.instagram {
+    width: 200px;
+    height: 200px;
+    background-image: url(Instagram.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: -23px;
+    right: -28px;
+}
+
+.header {
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+     display: inline-block;
+     margin-top: 20px;
+     margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(84, 61, 48);
+    font-style: Monospace, Monaco;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: rgb(80, 52, 52);
+    color:black ;
+}
+
+.hero {
+    height: 320px;
+    background-image: url(RumahKopi.jpg);
+    background-size: cover;
+    background-position: 0 -550px;
+    border-top: 5px solid rgb(210, 200, 188);
+    border-bottom: 5px solid rgb(210, 200, 188);
+}
+
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.main .penulis a {
+    color: rgb(125, 116, 107);
+    text-decoration: none;
+}
+
+.main p {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+/* sidebar */
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    font-weight: bold;
+    color: rgb(59, 53, 46);
+}
+
+.sidebar img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p {
+    font: 16px/28px Cursive, Lucida Console;
+}
+
+.footer {
+    background-color: rgb(86, 69, 48);
+    padding: 10px;
+}
+
+.footer .copy {
+    color: rgb(211, 161, 112);
+    text-align: center;
+    font-size: 12px;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
